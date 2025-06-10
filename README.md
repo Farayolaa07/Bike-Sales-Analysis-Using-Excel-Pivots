@@ -1,127 +1,82 @@
 # Bike-Sales-Analysis-Using-Excel-Pivots
-Bike Sales Data Analysis
+# 🚲 Bike Sales Analytics Dataset
 
-This repository contains an Excel dataset related to bike sales, including detailed transactional records, summarized insights, and pivot tables for analytical purposes. The dataset is ideal for practicing data analysis, visualization, and dashboarding with tools like Excel, Power BI, or Python.
+This repository contains a structured Excel dataset designed for business intelligence, pivot table analysis, and data visualization. The dataset includes customer demographics, product details, sales figures, and summarized financial metrics over multiple years.
 
-## 📊 Dataset Overview
+## 📦 Dataset Contents
 
-The Excel file contains **3 sheets**:
+The Excel file contains **4 sheets**, each offering unique insights:
 
-### 1. `Bike Sales`
-This is the main dataset and includes detailed sales transactions with the following key columns:
+### 1. `Sales Data`
+This is the core transactional dataset, with detailed records of bike product sales.
 
-- `Sales_Order #`: Unique identifier for each order
-- `Date`, `Day`, `Month`, `Year`: Time-related fields for each order
-- `Customer_Age`, `Age_Group`, `Customer_Gender`: Demographics
-- `Country`, `State`: Geographic data
-- `Product_Category`, `Sub_Category`, `Product_Description`: Product hierarchy
-- `Order_Quantity`, `Unit_Cost`, `Unit_Price`: Sales metrics
-- `Cost`, `Revenue`, `Profit`: Financial metrics
+**Key Fields:**
+- **Date, Day, Month, Year** – Temporal dimensions for each sale
+- **Customer_Age, Age_Group, Customer_Gender** – Demographics
+- **Country, State** – Geographic details
+- **Product_Category, Sub_Category, Product** – Product hierarchy
+- **Order_Quantity, Unit_Cost, Unit_Price** – Order metrics
+- **Cost, Revenue, Profit** – Financial outcomes
 
-### 2. `Sheet1`
-This sheet summarizes **profit distribution** across different **age groups** and **genders**:
-
-| Customer Gender | Adults (35–64) | Young Adults (25–34) | Youth (<25) | Grand Total |
-|------------------|----------------|------------------------|--------------|--------------|
-| F                | 52,385         | 35,559                 | 9,599        | 97,543       |
-| M                | 41,111         | 18,403                 | 6,451        | 65,965       |
-
-### 3. `Pivot`
-Contains a **pivot table summary** showing **order quantities** segmented by country, gender, and age group for the year 2021.
-
-## 📁 File Structure
-
-📦 Bike_Sales_Analysis.xlsx
-├── Sheet1 (Profit by Age & Gender)
-├── Bike Sales (Raw Transactional Data)
-└── Pivot (Country & Age Demographics Summary)
+Example:
+Date	Age_Group	Country	Product	Revenue
+2017-01-01	Youth (<25)	Canada	Road-250 Red, 44	4886
+2017-01-01	Adults (35-64)	United States	Road-550-W Yellow,38	2240
 
 yaml
 Copy
 Edit
-
-## 🧰 Usage
-
-This dataset is suitable for:
-
-- Practicing Excel pivot tables and formulas
-- Creating dashboards in Power BI or Tableau
-- Performing EDA (Exploratory Data Analysis) in Python or R
-- Business insights and trend analysis
-
-## 📄 License
-
-This dataset is provided for educational and non-commercial use. Please attribute appropriately if reused in public projects.
 
 ---
 
-**Happy Analyzing!**
-Let me know if you'd like to generate a visual preview (e.g., charts or a dashboard), or if you want this converted into a Jupyter Notebook! 
+### 2. `Revenue and Profit by Year`
+A summary sheet displaying total **annual revenue** and **profit** over multiple years.
 
+| Year | Annual Profit | Annual Revenue |
+|------|---------------|----------------|
+| 2017 | $4,065,680    | $10,289,670    |
+| 2018 | $7,747,551    | $17,028,380    |
+| 2019 | $7,417,353    | $15,705,990    |
 
+---
 
+### 3. `Product Revenue by Country`
+A pivot table summarizing **revenue contribution** by **country** and **product category**:
 
+| Country   | Accessories | Bikes     | Clothing | Grand Total |
+|-----------|-------------|-----------|----------|-------------|
+| Australia | $3,284,787  | $20,231,486 | $1,911,313 | $25,427,586 |
+| Canada    | $2,305,298  | $4,317,696  | $1,391,542 | $8,014,536  |
 
+---
 
+### 4. `Revenue by Age Group`
+Displays each **age group’s share of total revenue**:
 
-You said:
-include that dataset was analysed using pivots
+| Age Group            | Revenue Share |
+|----------------------|----------------|
+| Adults (35-64)       | 49.7%          |
+| Young Adults (25-34) | 36.0%          |
+| Seniors (64+)        | 0.36%          |
 
-
-ChatGPT said:
-Sure! Here's the updated README.md in Markdown format, now explicitly mentioning that the dataset was analyzed using pivot tables:
-
-markdown
-Copy
-Edit
-# Bike Sales Data Analysis
-
-This repository contains an Excel dataset related to bike sales, including detailed transactional records, summarized insights, and pivot table analyses. The dataset is ideal for practicing data analysis, visualization, and dashboarding with tools like Excel, Power BI, or Python.
-
-## 📊 Dataset Overview
-
-The Excel file contains **3 sheets**:
-
-### 1. `Bike Sales`
-This is the main dataset and includes detailed sales transactions with the following key columns:
-
-- `Sales_Order #`: Unique identifier for each order
-- `Date`, `Day`, `Month`, `Year`: Time-related fields for each order
-- `Customer_Age`, `Age_Group`, `Customer_Gender`: Demographics
-- `Country`, `State`: Geographic data
-- `Product_Category`, `Sub_Category`, `Product_Description`: Product hierarchy
-- `Order_Quantity`, `Unit_Cost`, `Unit_Price`: Sales metrics
-- `Cost`, `Revenue`, `Profit`: Financial metrics
-
-### 2. `Sheet1`
-This sheet summarizes **profit distribution** across different **age groups** and **genders** using pivot tables:
-
-| Customer Gender | Adults (35–64) | Young Adults (25–34) | Youth (<25) | Grand Total |
-|------------------|----------------|------------------------|--------------|--------------|
-| F                | 52,385         | 35,559                 | 9,599        | 97,543       |
-| M                | 41,111         | 18,403                 | 6,451        | 65,965       |
-
-### 3. `Pivot`
-This sheet contains **pivot table summaries** that break down **order quantities** by country, gender, and age group for the year 2021. It provides a high-level view of sales trends across different geographic and demographic segments.
-
-## 📁 File Structure
-
-📦 Bike_Sales_Analysis.xlsx
-├── Sheet1 (Profit by Age & Gender – Pivot Analysis)
-├── Bike Sales (Raw Transactional Data)
-└── Pivot (Country & Age Demographics Summary – Pivot Table)
-
-yaml
-Copy
-Edit
+---
 
 ## 🧰 Usage
 
-This dataset is suitable for:
+This dataset is perfect for:
+- Practicing pivot table creation and summarization in Excel
+- Exploratory data analysis (EDA)
+- Building dashboards with Power BI, Tableau, or Python
+- Studying customer demographics and product performance trends
 
-- Practicing Excel pivot tables and formulas
-- Creating dashboards in Power BI or Tableau
-- Performing EDA (Exploratory Data Analysis) in Python or R
-- Business insights and trend analysis
+> The dataset was analyzed primarily using **Excel pivot tables**, allowing clear insights into revenue distribution, profit margins, and product demand by market and demographic.
 
-> **Note:** The analysis in this dataset was performed using **Excel pivot tables
+---
+
+## 📄 License
+
+This dataset is shared for **educational and non-commercial** use. Please provide attribution if reused in public projects.
+
+---
+
+**Explore. Analyze. Visualize.**

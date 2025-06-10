@@ -37,6 +37,8 @@ A summary sheet displaying total **annual revenue** and **profit** over multiple
 | 2017 | $4,065,680    | $10,289,670    |
 | 2018 | $7,747,551    | $17,028,380    |
 | 2019 | $7,417,353    | $15,705,990    |
+![image](https://github.com/user-attachments/assets/2017655e-698e-41d9-806b-49587ffc9cc6)
+
 
 ---
 
@@ -47,6 +49,8 @@ A pivot table summarizing **revenue contribution** by **country** and **product 
 |-----------|-------------|-----------|----------|-------------|
 | Australia | $3,284,787  | $20,231,486 | $1,911,313 | $25,427,586 |
 | Canada    | $2,305,298  | $4,317,696  | $1,391,542 | $8,014,536  |
+![image](https://github.com/user-attachments/assets/a78a2c35-0070-4bf5-8e9d-f9f42a1b2b61)
+
 
 ---
 
@@ -58,6 +62,8 @@ Displays each **age group’s share of total revenue**:
 | Adults (35-64)       | 49.7%          |
 | Young Adults (25-34) | 36.0%          |
 | Seniors (64+)        | 0.36%          |
+![image](https://github.com/user-attachments/assets/b8b9476b-7071-47ec-ac38-5d4809c461c0)
+
 
 ---
 
